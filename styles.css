@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sky {
+    display: inline-block;
+    /*position: fixed;*/
+    width: 30%;
+    height: 120vh;
+    background: #37deee;
+}
+
+.clouds {
+    display: inline-block;
+    position: relative;
+    width: 130%;
+}
+
+.cloudBig {
+    max-width: 50%;
+}
+
+.cloudMiddle {
+    max-width: 25%;
+}
+
+.cloudSmall {
+    max-width: 12%;
+}
+
+.logo-box {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    left: 5%;
+}
+
+.umbrellas {
+    position: absolute;
+    width: 30%;
+    top: 50px;
+}
+
+.title-box {
+    position: absolute;
+    width: 30%;
+    top: 70px;
+}
+
+p {
+    position: relative;
+    width: 20%;
+}
