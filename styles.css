@@ -7,7 +7,7 @@ body {
 .sky {
     display: inline-block;
     /*position: fixed;*/
-    width: 30%;
+    max-width: 300px;
     height: 120vh;
     background: #37deee;
 }
@@ -19,37 +19,51 @@ body {
 }
 
 .cloudBig {
-    max-width: 50%;
+    width: 150px;
 }
 
 .cloudMiddle {
-    max-width: 25%;
+    width: 100px;
 }
 
 .cloudSmall {
-    max-width: 12%;
+    width: 50px;
+}
+
+#big1 {
+    position: relative;
+    top: 50px;
+    left: 30px;
 }
 
 .logo-box {
     position: absolute;
-    width: 50%;
+    width: 300px;
     top: 100px;
-    left: 5%;
+    left: 50px;
 }
 
 .umbrellas {
     position: absolute;
-    width: 30%;
+    width: 200px;
     top: 50px;
 }
 
 .title-box {
     position: absolute;
-    width: 30%;
-    top: 70px;
+    width: 200px;
+    top: 140px;
 }
 
 p {
-    position: relative;
-    width: 20%;
+    position: absolute;
+    width: 150px;
+    top: 160px;
+    left: 30px;
+    font-size: larger;
+    color: white;
+}
+
+span {
+    color: coral;
 }
