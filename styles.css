@@ -2,11 +2,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .sky {
     display: inline-block;
-    /*position: fixed;*/
     max-width: 300px;
     height: 120vh;
     background: #37deee;
@@ -15,7 +15,9 @@ body {
 .clouds {
     display: inline-block;
     position: relative;
-    width: 130%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .cloudBig {
@@ -32,8 +34,73 @@ body {
 
 #big1 {
     position: relative;
-    top: 50px;
-    left: 30px;
+    top: -50px;
+    left: 180px;
+    overflow: hidden;
+}
+
+#big2 {
+    position: relative;
+    left: 230px;
+    transform: scaleX(-1);
+}
+
+#big3 {
+    position: relative;
+    top: 120px;
+    right: 60px;
+    transform: rotate(180deg);
+}
+
+#big4 {
+    position: relative;
+    top: 300px;
+    left: 150px;
+}
+
+#big5 {
+    position: relative;
+    top: 250px;
+}
+
+#middle1 {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+#middle2 {
+    position: relative;
+    width: 70px;
+    right: 140px;
+}
+
+#middle3 {
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+
+#middle4 {
+    position: relative;
+    top: 400px;
+}
+
+#small1 {
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+#small2 {
+    position: relative;
+    top: 300px;
+}
+
+#small3 {
+    position: relative;
+    bottom: 120px;
+    left: 20px;
 }
 
 .logo-box {
@@ -57,9 +124,9 @@ body {
 
 p {
     position: absolute;
-    width: 150px;
+    width: 140px;
     top: 160px;
-    left: 30px;
+    left: 40px;
     font-size: larger;
     color: white;
 }
